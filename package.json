@@ -1,0 +1,26 @@
+{
+  "name": "cse341-project1",
+  "version": "1.0.0",
+  "description": "CSE Project 1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-production": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SheenaHamilton/cse341-project1.git"
+  },
+  "author": "Sheena Hamilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheenaHamilton/cse341-project1/issues"
+  },
+  "homepage": "https://github.com/SheenaHamilton/cse341-project1#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0"
+  }
+}
